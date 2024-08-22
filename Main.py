@@ -157,6 +157,7 @@ def turn():
       turn()
 
     #Convert row to integer
+<<<<<<< HEAD
     if(i(0) == "A"):
       rowVal = 1
     elif(i(0) == "B"):
@@ -173,6 +174,24 @@ def turn():
       rowVal = 1
     elif(i(0) == "H"):
       rowVal = 1
+=======
+    if(i(0) == "1"):
+      chosenPosition = -1
+    elif(i(0) == "2"):
+      chosenPosition = 7
+    elif(i(0) == "C"):
+      chosenPosition = 15
+    elif(i(0) == "D"):
+      chosenPosition == 23
+    elif(i(0) == "E"):
+      chosenPosition == 31
+    elif(i(0) == "F"):
+      chosenPosition == 39
+    elif(i(0) == "G"):
+      chosenPosition == 47
+    elif(i(0) == "H"):
+      chosenPosition == 55
+>>>>>>> 937658b (	modified:   Main.py)
     else:
       #If the player sucks at putting in letters
       print("Invalid input! Try again loser!")
