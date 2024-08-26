@@ -18,3 +18,4 @@ def scanPrint(str):
     step = step + 1
 
   print("\r")
+
