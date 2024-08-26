@@ -143,7 +143,8 @@ def positionScan(int):
     displayedPiece = "a rook"
   elif((chosenPos == "n") or (chosenPos == "N")):
     displayedPiece = "a knight"
-  elif((chosenPos == "b") or ()
+  elif((chosenPos == "b") or (chosenPos == "B")):
+    displa
     
 
 
