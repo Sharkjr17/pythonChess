@@ -1,22 +1,21 @@
 Board = {
-    1: {'a1': 'r', 'b1': 'n', 'c1': 'b', 'd1': 'q', 'e1': 'k', 'f1': 'b', 'g1': 'n', 'h1': 'r'},
-    2: {'a2': 'p', 'b2': 'p', 'c2': 'p', 'd2': 'p', 'e2': 'p', 'f2': 'p', 'g2': 'p', 'h2': 'p'},
-    3: {'a3': '-', 'b3': '-', 'c3': '-', 'd3': '-', 'e3': '-', 'f3': '-', 'g3': '-', 'h3': '-'},
-    4: {'a4': '-', 'b4': '-', 'c4': '-', 'd4': '-', 'e4': '-', 'f4': '-', 'g4': '-', 'h4': '-'},
-    5: {'a5': '-', 'b5': '-', 'c5': '-', 'd5': '-', 'e5': '-', 'f5': '-', 'g5': '-', 'h5': '-'},
-    6: {'a6': '-', 'b6': '-', 'c6': '-', 'd6': '-', 'e6': '-', 'f6': '-', 'g6': '-', 'h6': '-'},
-    7: {'a7': 'P', 'b7': 'P', 'c7': 'P', 'd7': 'P', 'e7': 'P', 'f7': 'P', 'g7': 'P', 'h7': 'P'},
-    8: {'a8': 'R', 'b8': 'N', 'c8': 'B', 'd8': 'K', 'e8': 'Q', 'f8': 'B', 'g8': 'N', 'h8': 'R'},
+    'a1': 'r', 'b1': 'n', 'c1': 'b', 'd1': 'q', 'e1': 'k', 'f1': 'b', 'g1': 'n', 'h1': 'r',
+    'a2': 'p', 'b2': 'p', 'c2': 'p', 'd2': 'p', 'e2': 'p', 'f2': 'p', 'g2': 'p', 'h2': 'p',
+    'a3': '-', 'b3': '-', 'c3': '-', 'd3': '-', 'e3': '-', 'f3': '-', 'g3': '-', 'h3': '-',
+    'a4': '-', 'b4': '-', 'c4': '-', 'd4': '-', 'e4': '-', 'f4': '-', 'g4': '-', 'h4': '-',
+    'a5': '-', 'b5': '-', 'c5': '-', 'd5': '-', 'e5': '-', 'f5': '-', 'g5': '-', 'h5': '-',
+    'a6': '-', 'b6': '-', 'c6': '-', 'd6': '-', 'e6': '-', 'f6': '-', 'g6': '-', 'h6': '-',
+    'a7': 'P', 'b7': 'P', 'c7': 'P', 'd7': 'P', 'e7': 'P', 'f7': 'P', 'g7': 'P', 'h7': 'P',
+    'a8': 'R', 'b8': 'N', 'c8': 'B', 'd8': 'K', 'e8': 'Q', 'f8': 'B', 'g8': 'N', 'h8': 'R',
 }
 
 
-#Im mad this works
 
-print("1|  ",Board[1]['a1']," ",Board[1]['b1']," ",Board[1]['c1']," ",Board[1]['d1']," ",Board[1]['e1']," ",Board[1]['f1']," ",Board[1]['g1']," ",Board[1]['h1'])
-print("2|  ",Board[2]['a2']," ",Board[2]['b2']," ",Board[2]['c2']," ",Board[2]['d2']," ",Board[2]['e2']," ",Board[2]['f2']," ",Board[2]['g2']," ",Board[2]['h2'])
-print("3|  ",Board[3]['a3']," ",Board[3]['b3']," ",Board[3]['c3']," ",Board[3]['d3']," ",Board[3]['e3']," ",Board[3]['f3']," ",Board[3]['g3']," ",Board[3]['h3'])
-print("4|  ",Board[4]['a4']," ",Board[4]['b4']," ",Board[4]['c4']," ",Board[4]['d4']," ",Board[4]['e4']," ",Board[4]['f4']," ",Board[4]['g4']," ",Board[4]['h4'])
-print("5|  ",Board[5]['a5']," ",Board[5]['b5']," ",Board[5]['c5']," ",Board[5]['d5']," ",Board[5]['e5']," ",Board[5]['f5']," ",Board[5]['g5']," ",Board[5]['h5'])
-print("6|  ",Board[6]['a6']," ",Board[6]['b6']," ",Board[6]['c6']," ",Board[6]['d6']," ",Board[6]['e6']," ",Board[6]['f6']," ",Board[6]['g6']," ",Board[6]['h6'])
-print("7|  ",Board[7]['a7']," ",Board[7]['b7']," ",Board[7]['c7']," ",Board[7]['d7']," ",Board[7]['e7']," ",Board[7]['f7']," ",Board[7]['g7']," ",Board[7]['h7'])
-print("8|  ",Board[8]['a8']," ",Board[8]['b8']," ",Board[8]['c8']," ",Board[8]['d8']," ",Board[8]['e8']," ",Board[8]['f8']," ",Board[8]['g8']," ",Board[8]['h8'])
+print("1|  ",Board['a1']," ",Board['b1']," ",Board['c1']," ",Board['d1']," ",Board['e1']," ",Board['f1']," ",Board['g1']," ",Board['h1'])
+print("2|  ",Board['a2']," ",Board['b2']," ",Board['c2']," ",Board['d2']," ",Board['e2']," ",Board['f2']," ",Board['g2']," ",Board['h2'])
+print("3|  ",Board['a3']," ",Board['b3']," ",Board['c3']," ",Board['d3']," ",Board['e3']," ",Board['f3']," ",Board['g3']," ",Board['h3'])
+print("4|  ",Board['a4']," ",Board['b4']," ",Board['c4']," ",Board['d4']," ",Board['e4']," ",Board['f4']," ",Board['g4']," ",Board['h4'])
+print("5|  ",Board['a5']," ",Board['b5']," ",Board['c5']," ",Board['d5']," ",Board['e5']," ",Board['f5']," ",Board['g5']," ",Board['h5'])
+print("6|  ",Board['a6']," ",Board['b6']," ",Board['c6']," ",Board['d6']," ",Board['e6']," ",Board['f6']," ",Board['g6']," ",Board['h6'])
+print("7|  ",Board['a7']," ",Board['b7']," ",Board['c7']," ",Board['d7']," ",Board['e7']," ",Board['f7']," ",Board['g7']," ",Board['h7'])
+print("8|  ",Board['a8']," ",Board['b8']," ",Board['c8']," ",Board['d8']," ",Board['e8']," ",Board['f8']," ",Board['g8']," ",Board['h8'])
